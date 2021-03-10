@@ -30,6 +30,7 @@ body{
     font-size: 16px;
 }
 
+
 .nav-container{
     width: 100%;
     margin: 0 auto;
@@ -41,6 +42,7 @@ header{
 
 nav{
     float: right;
+    font-family:Arial;
 }
 
 header::after{
@@ -87,8 +89,9 @@ a:hover{
     text-decoration: underline;
 }
 a{
-    color:black;
+    color:rgb(100, 100, 100);
 }
+
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
@@ -102,6 +105,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer::after{
     content:'';
@@ -116,6 +120,6 @@ footer::after{
     float: right;
 }
 .footer-container{
-    width: 95%;
+    width: 97%;
     margin: 0 auto;
 }

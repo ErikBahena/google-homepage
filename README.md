@@ -13,11 +13,15 @@ This project will demonstrate the following skills:
 Head, Title.
 Body, Search Bar.
 Body, Logo.
+header, navigation bar
+footer, navigation bar
 
 6.CSS styling to HTML elements:
 Body, Background.
 Body, Logo.
 Body, Search Bar.
+header, navigation
+footer, navigation
 
 7.Viewing my web page in a browser (refreshing the browser automatically using the Live-Server VScode add-on).
 
