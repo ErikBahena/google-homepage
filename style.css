@@ -12,6 +12,7 @@
 body{
    max-width:100%;
    background-color: rgb(255, 255, 255);
+   margin: 0px;
 }
 
 .search-bar{
@@ -27,4 +28,94 @@ body{
     text-indent: 40px;
     outline: none;
     font-size: 16px;
+}
+
+.nav-container{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: transparent;
+    height: 50px;
+}
+
+nav{
+    float: right;
+}
+
+header::after{
+
+    content: '';
+    display: table;
+    clear: both;
+}
+.app-icon{
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+   margin-left: 20px;
+   float: right;
+   padding-top: 0px;
+   
+}
+.github{
+    background-color: rgb(106, 82, 241);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    content: url(https://avatars.githubusercontent.com/u/80177106?s=400&u=629ad7ce56684a42362afeb8fcc3e6c7b819231a&v=4);
+    
+}
+nav ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    color:black;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+
+footer{
+    background-color: none;
+    height: 50px;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+#nav-footer-left{
+    float: left;
+    margin-left: 1px;
+}
+#nav-footer-right{
+    float: right;
+}
+.footer-container{
+    width: 95%;
+    margin: 0 auto;
 }
